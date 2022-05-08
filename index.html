@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-left flex center-ver">
+            <img src="./assets/icons/magnify.svg" alt="User Image" class="icon header__top-image">
+            <input type="text" name="search" class="header__top-bar">
+            </div>
+            <div class="header__top-right flex center-ver">
+                <img src="./assets/icons/bell-ring-outline.svg" alt="bell-icon" class="icon">
+                <img src="./assets/img/usr-0.jpeg" alt="avatar-icon" class="avatar-img">
+                <a href="#"class="header__top-name">Hinata shoto</a>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__bottom-left flex center-ver">
+                <img src="./assets/img/usr-0.jpeg" alt="avatar-icon" class="avatar-img">
+                <div class="header__bottom-left-desc">
+                    <span>Hi, there</span><br>
+                    <div class="header__bottom-name">Hinata shoto (@hinata)</div>
+                </div>
+            </div>
+            <div class="header__bottom-right flex center-ver">
+                <a href="#"><button class="btn">New</button></a>
+                <a href="#"><button class="btn">Upload</button></a>
+                <a href="#"><button class="btn">Share</button></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SIDEBAR SECTION -->
+    <sidebar class="sidebar">
+        <div class="sidebar__heading center-ver flex"><img class="icon dashboard-icon" src="./assets/icons/view-dashboard.svg" alt="dashboard-icon">Dashboard</div>
+        <div class="sidebar__first">
+            <ul class="sidebar__first-ul">
+                <li class="sidebar--list"><a class="center-ver flex" href="#"><img class="icon" src="./assets/icons/home.svg" alt="home-icon">Home</a></li>
+                <li class="sidebar--list"><a class="center-ver flex" href="#"><img class="icon" src="./assets/icons/card-account-details-outline.svg" alt="profile-icon">Profile</a></li>
+                <li class="sidebar--list"><a class="center-ver flex" href="#"><img class="icon" src="./assets/icons/message-settings.svg" alt="messages-icon">Messages</a></li>
+                <li class="sidebar--list"><a class="center-ver flex" href="#"><img class="icon" src="./assets/icons/clock-time-three.svg" alt="history-icon">History</a></li>
+                <li class="sidebar--list"><a class="center-ver flex" href="#"><img class="icon" src="./assets/icons/book-variant-multiple.svg" alt="tasks-icon">Tasks</a></li>
+                <li class="sidebar--list"><a class="center-ver flex" href="#"><img class="icon" src="./assets/icons/account-group.svg" alt="communities-icon">Communitites</a></li>
+            </ul>
+            
+        </div>
+        <div class="sidebar__second">
+            <ul class="sidebar__second-ul"> 
+                <li class="sidebar--list"><a class="center-ver flex" href="#"><img class="icon" src="./assets/icons/cog.svg" alt="settings-icon">Settings</a></li>
+                <li class="sidebar--list"><a class="center-ver flex" href="#"><img class="icon" src="./assets/icons/help-box.svg" alt="support-icon">Support</a></li>
+                <li class="sidebar--list"><a class="center-ver flex" href="#"><img class="icon" src="./assets/icons/shield-check.svg" alt="privacy-icon">Privacy</a></li>
+            </ul>
+        </div>
+    </sidebar>
+
+    <!-- MAIN SECTION -->
+    <main class="main">
+        <div class="main__left">
+            <div class="main__left-heading">Your Projects</div>
+            <div class="main__left-cards">
+                <div class="card-item">
+                    <div class="card-item--heading">Super Cool Project</div>
+                    <div class="card-item--text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A temporibus laboriosam eveniet nam?
+                    </div>
+                    <div class="card-item-icons">
+                        <img class="icon" src="./assets/icons/star-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/eye-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/share-variant.svg" alt="share-icon">
+                    </div>
+                </div>
+                 <div class="card-item">
+                    <span class="card-item--heading">Less Cool Project</span>
+                    <div class="card-item--text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae voluptatibus, nobis sapiente modi nostrum assumenda earum ex, itaque vel expedita illum, beatae asperiores laboriosam velit numquam illo inventore!
+                    </div>
+                    <div class="card-item-icons">
+                        <img class="icon" src="./assets/icons/star-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/eye-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/share-variant.svg" alt="share-icon">
+                    </div>
+                </div>
+                
+                    <div class="card-item">
+                    <span class="card-item--heading">Impossible App</span>
+                    <div class="card-item--text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, modi quisquam. Sunt in molestias, impedit doloremque aut obcaecati error officiis quo cum eos. At.
+                    </div>
+                    <div class="card-item-icons">
+                        <img class="icon" src="./assets/icons/star-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/eye-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/share-variant.svg" alt="share-icon">
+                    </div>
+                </div>
+                <div class="card-item">
+                    <span class="card-item--heading">Easy Peasy App</span>
+                    <div class="card-item--text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dignissimos amet, aliquid sed veritatis dolorum accusantium aut nihil totam illum?
+                    </div>
+                    <div class="card-item-icons">
+                        <img class="icon" src="./assets/icons/star-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/eye-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/share-variant.svg" alt="share-icon">
+                    </div>
+                </div>
+                <div class="card-item">
+                    <span class="card-item--heading">Ad Blocker</span>
+                    <div class="card-item--text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem, repellendus molestiae dicta aspernatur ducimus provident quis nesciunt iure, doloremque magni laborum modi eius. Distinctio.
+                    </div>
+                    <div class="card-item-icons">
+                        <img class="icon" src="./assets/icons/star-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/eye-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/share-variant.svg" alt="share-icon">
+                    </div>
+                </div>
+                <div class="card-item">
+                    <span class="card-item--heading">Money Maker</span>
+                    <div class="card-item--text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus vel impedit consequuntur? Eos labore eum aperiam ut quam!
+                    </div>
+                    <div class="card-item-icons">
+                        <img class="icon" src="./assets/icons/star-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/eye-plus-outline.svg" alt="share-icon">
+                        <img class="icon" src="./assets/icons/share-variant.svg" alt="share-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__right">
+            <div class="main__right-top">
+                <span class="main__right-heading">Announcements</span>
+                <div class="card-item announcement-card">
+                    <div class="card-item--heading announcement-card--heading">Site Maintenance</div>    
+                    <div class="card-item--text announcement-card--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur fugit necessitatibus animi commodi sed.</div>
+                    <hr>
+                    <div class="card-item--heading announcement-card--heading">Community Share Day</div>    
+                    <div class="card-item--text announcement-card--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur fugit necessitatibus animi commodi sed.</div>
+                    <hr>
+                    <div class="card-item--heading announcement-card--heading">Updated Privacy Policy</div>    
+                    <div class="card-item--text announcement-card--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur fugit necessitatibus animi commodi sed.</div>
+
+                </div>
+            </div>
+            <div class="main__right-bottom">
+                <span class="main__right-heading">Trending</span>
+                <div class="card-item trending-card">
+                    <div class="flex center-ver">
+                        <img src="assets/img/usr-1.jpeg" class="trending-card--img avatar-img">
+                        <div class="trending-card--content">
+                            <div class="trending-card--name">@asahi</div>
+                            <div class="trending-card--desc">World Peace Builder</div>
+                        </div>
+                    </div><br>
+
+                    <div class="flex center-ver">
+                        <img src="assets/img/usr-0.jpeg" class="trending-card--img avatar-img">
+                        <div class="trending-card--content">
+                            <div class="trending-card--name">@hinata</div>
+                            <div class="trending-card--desc">Super Cool Project</div>
+                        </div>
+                    </div><br>
+
+                    <div class="flex center-ver">
+                        <img src="assets/img/usr-2.jpeg" class="trending-card--img avatar-img">
+                        <div class="trending-card--content">
+                            <div class="trending-card--name">@kendall</div>
+                            <div class="trending-card--desc">Life Changing App</div>
+                        </div>
+                    </div><br>
+
+                    <div class="flex center-ver">
+                        <img src="assets/img/usr-3.jpg" class="trending-card--img avatar-img">
+                        <div class="trending-card--content">
+                            <div class="trending-card--name">@alex</div>
+                            <div class="trending-card--desc">No Traffic Maker</div>
+                        </div>
+                    </div><br>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
